@@ -81,7 +81,6 @@
       <version>${project.version}</version>
     </dependency>
 
-
     <dependency>
       <groupId>com.thinkbiganalytics.datalake</groupId>
       <artifactId>kylo-operational-metadata-integration-service</artifactId>
@@ -124,8 +123,11 @@
       <artifactId>kylo-hadoop-authorization-core</artifactId>
       <version>${project.version}</version>
     </dependency>
-
-
+    <dependency>
+      <groupId>com.thinkbiganalytics.datalake</groupId>
+      <artifactId>kylo-security-auth-memory</artifactId>
+      <version>${project.version}</version>
+    </dependency>
     <dependency>
       <groupId>com.thinkbiganalytics.datalake</groupId>
       <artifactId>kylo-job-repository-api</artifactId>
@@ -499,7 +501,7 @@
           <descriptors>
             <descriptor>src/main/assembly/descriptor.xml</descriptor>
           </descriptors>
-	  <tarLongFileMode>posix</tarLongFileMode>
+          <tarLongFileMode>posix</tarLongFileMode>
         </configuration>
         <executions>
           <execution>
