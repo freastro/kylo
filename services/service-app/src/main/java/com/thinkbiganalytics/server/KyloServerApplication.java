@@ -30,12 +30,12 @@ import com.thinkbiganalytics.rest.SpringJerseyConfiguration;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.slf4j.bridge.SLF4JBridgeHandler;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.velocity.VelocityAutoConfiguration;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
-import org.springframework.cloud.config.server.EnableConfigServer;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -60,7 +60,7 @@ public class KyloServerApplication implements SchedulingConfigurer {
     private static final Logger log = LoggerFactory.getLogger(KyloServerApplication.class);
 
     public static void main(String[] args) {
-
+        SLF4JBridgeHandler.install();
         KyloVersion dbVersion = getDatabaseVersion();
 
         boolean skipUpgrade = KyloVersionUtil.isUpToDate(dbVersion);
@@ -76,9 +76,8 @@ public class KyloServerApplication implements SchedulingConfigurer {
                 cxt.close();
             } while (!upgradeComplete);
             log.info("Upgrading complete");
-        }
-        else {
-            log.info("Kylo v{} is up to date.  Starting the application.",dbVersion);
+        } else {
+            log.info("Kylo v{} is up to date.  Starting the application.", dbVersion);
         }
         System.setProperty(SpringApplication.BANNER_LOCATION_PROPERTY, "banner.txt");
         SpringApplication.run("classpath:application-context.xml", args);
