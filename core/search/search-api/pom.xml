@@ -9,7 +9,7 @@
     <version>0.8.4-SNAPSHOT</version>
   </parent>
   <properties>
-    <modeshape.search.version>5.2.0.Final</modeshape.search.version>
+    <modeshape.search.version>5.4.0.Final</modeshape.search.version>
     <plugin.license.parentRelative>../../../</plugin.license.parentRelative>
   </properties>
   <artifactId>kylo-search-api</artifactId>
