@@ -43,7 +43,7 @@
     <testng.version>6.9.10</testng.version>
     <slf4j.version>1.7.12</slf4j.version>
     <slf4j.log4j12.version>1.7.10</slf4j.log4j12.version>
-    <io.swagger.version>1.5.9</io.swagger.version>
+    <io.swagger.version>1.5.19</io.swagger.version>
     <commons-beanutils.version>1.9.2</commons-beanutils.version>
     <commons.dbcp>1.4</commons.dbcp>
     <commons.dbcp2>2.1.1</commons.dbcp2>
@@ -178,7 +178,7 @@
     <developer>
       <id>thinkbiganalytics</id>
       <name>Think Big Analytics, A Teradata Company</name>
-      <url></url>
+      <url/>
     </developer>
   </developers>
 
