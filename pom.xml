@@ -32,11 +32,11 @@
 
     <!-- dependencies -->
     <automatic-release-repo-promotion>false</automatic-release-repo-promotion>
-    <activemq.version>5.15.0</activemq.version>
+    <activemq.version>5.15.4</activemq.version>
     <avro.version>1.7.7</avro.version>
     <spring.version>4.2.5.RELEASE</spring.version>
     <jersey.version>2.22.2</jersey.version>
-    <jackson.version>2.6.2</jackson.version>
+    <jackson.version>2.9.5</jackson.version>
     <hibernate.version>5.1.5.Final</hibernate.version>
     <hibernate.jpa.version>1.0.0.Final</hibernate.jpa.version>
     <junit.version>4.11</junit.version>
@@ -178,7 +178,7 @@
     <developer>
       <id>thinkbiganalytics</id>
       <name>Think Big Analytics, A Teradata Company</name>
-      <url></url>
+      <url/>
     </developer>
   </developers>
 
