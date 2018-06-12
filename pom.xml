@@ -54,7 +54,7 @@
     <commons.collections>3.2.2</commons.collections>
     <commons.csv>1.4</commons.csv>
     <commons.codec>1.10</commons.codec>
-    <elasticsearch.version>2.2.0</elasticsearch.version>
+    <elasticsearch.version>5.2.0</elasticsearch.version>
     <guava.version>19.0</guava.version>
     <hadoop.version>2.6.2</hadoop.version>
     <hamcrest.version>1.3</hamcrest.version>
@@ -75,7 +75,7 @@
     <mockito.version>1.10.19</mockito.version>
     <!-- The maria db driver version is references in the post-install.sh file. Manually update it there if you change it here.  -->
     <mariadb.version>1.5.7</mariadb.version>
-    <nifi.version>1.0.0</nifi.version>
+    <nifi.version>1.6.0</nifi.version>
     <nifi.version.override>1.2.0</nifi.version.override>
     <powermock.version>1.6.3</powermock.version>
     <quartz.version>2.2.1</quartz.version>
@@ -178,7 +178,7 @@
     <developer>
       <id>thinkbiganalytics</id>
       <name>Think Big Analytics, A Teradata Company</name>
-      <url></url>
+      <url/>
     </developer>
   </developers>
 
@@ -1200,7 +1200,7 @@
         <activeByDefault>false</activeByDefault>
       </activation>
       <properties>
-        <nifi.version>${nifi.version.override}</nifi.version>
+        <nifi.version>1.6.0</nifi.version>
       </properties>
     </profile>
     <profile>
@@ -1209,7 +1209,7 @@
         <activeByDefault>false</activeByDefault>
       </activation>
       <properties>
-        <nifi.version>1.4.0</nifi.version>
+        <nifi.version>1.6.0</nifi.version>
       </properties>
     </profile>
   </profiles>
