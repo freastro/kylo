@@ -46,7 +46,7 @@
       <!-- Required for Cloudera 5.7 client -->
       <groupId>org.apache.cxf</groupId>
       <artifactId>cxf-rt-rs-client</artifactId>
-      <version>3.1.9</version>
+      <version>3.1.14</version>
     </dependency>
 
     <!-- cloudera -->
