@@ -89,7 +89,7 @@
     <spring.boot.version>1.3.7.RELEASE</spring.boot.version>
     <spring.cloud.version>1.1.3.RELEASE</spring.cloud.version>
     <spring.jpa.version>1.10.2.RELEASE</spring.jpa.version>
-    <spring.security.version>4.1.3.RELEASE</spring.security.version>
+    <spring.security.version>4.2.3.RELEASE</spring.security.version>
     <!--  <spring.security.version>4.1.1.RELEASE</spring.security.version> -->
     <spring.ldap.version>2.1.0.RELEASE</spring.ldap.version>
     <projectreactor.version>2.0.8.RELEASE</projectreactor.version>
@@ -178,7 +178,7 @@
     <developer>
       <id>thinkbiganalytics</id>
       <name>Think Big Analytics, A Teradata Company</name>
-      <url></url>
+      <url/>
     </developer>
   </developers>
 
@@ -458,7 +458,7 @@
       <dependency>
         <groupId>org.springframework.data</groupId>
         <artifactId>spring-data-commons</artifactId>
-        <version>1.12.0.RELEASE</version>
+        <version>1.13.11.RELEASE</version>
       </dependency>
 
       <dependency>
