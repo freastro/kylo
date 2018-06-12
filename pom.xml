@@ -99,7 +99,7 @@
     <findbugs.version>3.0.1</findbugs.version>
     <pig.version>0.15.0</pig.version>
     <gson.version>2.2.4</gson.version>
-    <h2.version>1.4.187</h2.version>
+    <h2.version>1.4.197</h2.version>
     <aws.java.sdk.version>1.9.6</aws.java.sdk.version>
     <amazon.sqs.java.messaging.lib.version>1.0.0</amazon.sqs.java.messaging.lib.version>
 
@@ -178,7 +178,7 @@
     <developer>
       <id>thinkbiganalytics</id>
       <name>Think Big Analytics, A Teradata Company</name>
-      <url></url>
+      <url/>
     </developer>
   </developers>
 
@@ -458,13 +458,13 @@
       <dependency>
         <groupId>org.springframework.data</groupId>
         <artifactId>spring-data-commons</artifactId>
-        <version>1.12.0.RELEASE</version>
+        <version>1.13.11.RELEASE</version>
       </dependency>
 
       <dependency>
         <groupId>org.springframework.data</groupId>
         <artifactId>spring-data-jpa</artifactId>
-        <version>1.10.2.RELEASE</version>
+        <version>1.11.11.RELEASE</version>
       </dependency>
 
 
